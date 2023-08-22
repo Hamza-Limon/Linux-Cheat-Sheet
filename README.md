@@ -1,6 +1,6 @@
 # Temel Linux komutları
 
-1. Dosya ve Dizin İşlemleri:
+# Dosya ve Dizin İşlemleri:
 
 ls: Mevcut dizindeki dosyaları ve dizinleri listele.
 
@@ -24,7 +24,7 @@ rm [Dosya]: Dosya silme.
 
 -r: Dizin ve içeriğini silme.
 
-2. Kullanıcı ve İzinler:
+# Kullanıcı ve İzinler:
 
 whoami: Mevcut kullanıcıyı göster.
 
@@ -40,7 +40,7 @@ chmod [İzinler] [Dosya]: Dosya izinlerini değiştir.
 
 Örnek: chmod 755 dosya.txt
 
-3. Ağ İşlemleri:
+# Ağ İşlemleri:
 
 ifconfig: Ağ arayüzlerini görüntüle.
 
@@ -50,13 +50,13 @@ netstat -tuln: Açık portları ve bağlantıları listele.
 
 nslookup [Alan Adı]: DNS sorgusu yap.
 
-4. Arşivleme ve Sıkıştırma:
+# Arşivleme ve Sıkıştırma:
 
 tar -czvf [Dosya.tar.gz] [Dosyalar]: Dosyaları sıkıştırılmış bir arşiv oluştur.
 
 tar -xzvf [Dosya.tar.gz]: Arşivi aç.
 
-5. Süreçler:
+# Süreçler:
 
 ps aux: Tüm çalışan süreçleri listele.
 
@@ -64,8 +64,7 @@ top: Sistem kaynaklarını canlı olarak izle.
 
 kill [PID]: Belirtilen süreci sonlandır.
 
-6. Veri Akışları:
-
+# Veri Akışları:
 
 cat [Dosya]: Dosyanın içeriğini göster.
 
